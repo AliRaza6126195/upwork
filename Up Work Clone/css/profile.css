@@ -1,0 +1,175 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container{
+
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.header {
+  margin: 20px 0 10px -550px;
+}
+img {
+  height: 70px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 800;
+  display: block;
+  margin: -50px 0 10px 100px;
+}
+.info {
+  margin: 10px 0 10px 90px;
+  font-size: 20px;
+}
+
+.profile-infirmation {
+  display: flex;
+  margin-top: 60px;
+}
+
+.p-info {
+  border: 1px solid rgb(190, 186, 186);
+
+  width: 400px;
+  height: 800px;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0 10px 30px;
+  
+}
+
+.p-info-heading1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list-1 {
+  display: flex;
+  justify-content: space-evenly;
+margin-left: 30px;
+}
+.list-1 li {
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 18px;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.list-2 {
+    margin-left: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.list-2 li {
+  margin-top: 10px;
+  font-size: 15px;
+  list-style: none;
+}
+
+.other-infirmation {
+  padding: 40px 0 10px 30px;
+  line-height: 30px;
+}
+
+.heading1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.heading1-ul li {
+  list-style: none;
+}
+
+.heading2 {
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin-top: 50px;
+}
+
+.heading2-ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.heading3 {
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.heading3-ul li {
+  list-style: none;
+}
+
+.heading3-ul-2 {
+  font-size: 12px;
+}
+.heading3-ul-3 {
+  color: rgb(112, 111, 111);
+}
+
+.heading4{
+
+
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.heading4-ul li{
+
+    list-style: none;
+}
+.heading4-ul-1{
+
+    color: #1db608;
+    font-size: 17px;
+}
+.heading4-ul-2{
+    
+  color: rgb(112, 111, 111);
+}
+.p-description {
+  border: 1px solid rgb(190, 186, 186);
+  height: 800px;
+  width: 100%;
+}
+
+.description-list ul{
+
+display: flex;
+flex-direction: row;
+
+justify-content: space-between;
+margin: 20px 50px 20px 40px;
+}
+
+.description-list ul li{
+
+    list-style: none;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.paragraphs{
+
+line-height: 30px;
+padding-left: 20px;
+
+
+}

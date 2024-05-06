@@ -1,0 +1,79 @@
+/*Common css start*/
+
+.wrapper {
+    width: var(--width);
+    margin: auto;
+  }
+  
+  .btn_primary  {
+    background-color: var(--white);
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--grey);
+    border-radius: 20px;
+  
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+  }
+  .btn_primary a{
+text-decoration: none;
+color:var(--grey);
+font-size: 1.8rem;
+
+  }
+  
+  .btn_secondary  {
+    border: none; }
+  
+  .btn_secondary a{
+
+text-decoration: none;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--white);
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+
+  }
+  .btn_secondary a:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  .btn_secondary_outline {
+    background-color: var(--white);
+    border: 1px solid var(--primary);
+    /* border: none; */
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--primary);
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn_secondary_outline:hover {
+    background-color: #108A00;
+    color: #fff;
+  }
+  
+  .title-1 {
+    font-size: 80px;
+  }
+  
+  .title-3 {
+    font-size: 24px;
+  }
+  
+  .title-4 {
+    font-size: 16px;
+  }
+  
+  /*Common css end*/
+  

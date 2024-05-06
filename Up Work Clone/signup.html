@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an Account to Upwork</title>
+    <link rel="stylesheet" href="css/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="images/logo.svg" alt="" />
+    </div>
+
+    <form action="signup.js" name="signupform" onsubmit="return validateForm()" method="post">
+      <span class="heading">Sign up to find work you love</span>
+
+      <div class="btn">
+        <button class="apple">
+          <div class="google-img">          <i class="fa-brands fa-apple"></i>
+          </div>
+          Continue with Apple
+        </button>
+        <button class="google">
+          <i class="fa-brands fa-google"></i> Continue with Google
+        </button>
+      </div>
+
+      <div class="linebreak">
+        <div class="line1"></div>
+        <span>or</span>
+        <div class="line1"></div>
+      </div>
+
+      <div class="name">
+        <span class="card-details">FirstName</span>
+        <input type="text" name="FirstName" required />
+        <b> <div class="formerror"></div></b>
+        <span class="card-details">LastName</span>
+        <input type="text" name="LastName" id="" required />
+      </div>
+      <b> <div class="formerror"></div></b>
+      <div class="other-infirmation">
+        <span class="card-details">Email</span>
+        <input type="email" name="email" required />
+
+        <b> <div class="formerror"></div></b>
+        <span class="card-details">Password</span>
+        <input
+          type="password"
+          name="password"
+          id=""
+          placeholder="Password ( 8 or more characters ) "
+          required
+        />
+        <b> <div class="formerror"></div></b>
+        <div class="country-details">
+          <span class="card-details">Country</span>
+          <select name="Pakistan" id="">
+            <option value="Pakistan">Pakistan</option>
+
+            <option value="India">India</option>
+            <option value="America">America</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Bangladaish">Bangladaish</option>
+            <option value="Iran">Iran</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Itly">Itly</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Qatar">Qatar</option>
+            <option value="UAE">UAE</option>
+            <option value="Bahrin">Bahrin</option>
+            <option value="Canada">Canada</option>
+            <option value="Combodia">Combodia</option>
+            <option value="Saudi Arabia">Saudi Arabia</option>
+            <option value="Iraq">Iraq</option>
+
+            <option value="Palestine">Palestine</option>
+            <option value="Ejypt">Ejypt</option>
+            <option value="chaina">chaina</option>
+          </select>
+        </div>
+      </div>
+      <b> <div class="formerror"></div></b>
+      <input type="checkbox" name="chackbox" id="" required />
+      <span class="checkbox"
+        >Send me helpful emails to find rewarding work and job leads</span
+      >
+
+      <br />
+      <button class="create-account">
+        <a href="profile.html">Create my Account</a>
+      </button>
+
+      <span class="alreadylogin">Already have an account?<a href="Login.html">Log In </a></span>
+    </form>
+
+    <script src="js/signup.js"></script>
+  </body>
+</html>

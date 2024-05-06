@@ -1,0 +1,147 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 30px;
+  margin: 20px 0 0 30px;
+}
+
+form {
+  border: 1px solid gray;
+  border-radius: 12px;
+  font-weight: 800;
+  width: 620px;
+  height: 750px;
+  text-align: center;
+  margin: 80px 0 0 350px;
+
+  padding: 10px;
+}
+.heading {
+  font-size: 45px;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  margin-top: 20px;
+}
+.apple {
+  height: 35px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 50px;
+  background-color: transparent;
+}
+.google {
+  background-color: #4285f4;
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  padding-top: 10px;
+  border-radius: 50px;
+  height: 35px;
+  width: 200px;
+}
+.google-img{
+
+  background-color: #fff;
+  border-radius: 50px;
+  border: transparent;
+  height: 10px;
+  width: 150px;
+}
+.linebreak {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 0 20px 40px;
+}
+
+.line1 {
+  height: 1px;
+  width: 180px;
+  border: 1px solid gray;
+}
+
+.name {
+  display: flex;
+  margin-top: 60px;
+}
+.name .card-details {
+  margin: -40px 0  5px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name input {
+  height: 40px;
+  width: 270px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  margin: -15px 10px 0 -75px;
+}
+.other-infirmation {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px 10px 50px;
+}
+
+.other-infirmation input {
+  width: 550px;
+  height: 45px;
+  padding-left: 20px;
+margin-left: -20px;
+outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.other-infirmation .card-details {
+  margin: 20px -10px 10px -520px;
+}
+
+.country-details {
+  display: flex;
+  flex-direction: column;
+}
+.country-details select {
+  height: 45px;
+  width: 550px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 50px 20px -20px;
+  padding: 10px;
+}
+
+.create-account{
+border: none;
+background-color: #108a00;
+width: 220px;
+border-radius: 50px;
+height: 45px;
+margin-top: 20px;
+
+}
+.create-account a{
+font-size: 16px;
+    color: #ffff;
+    text-decoration: none;
+}
+.alreadylogin{
+
+display: block;
+margin-top: 20px;
+}
+.alreadylogin a{
+
+color: #108a00;
+
+}

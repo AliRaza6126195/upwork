@@ -1,0 +1,146 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+img {
+  height: 25px;
+  margin: 15px 0 0 25px;
+}
+
+.Login-form {
+  margin: 100px 0 0 400px;
+  text-align: center;
+  border: 1px solid #b9b9b9;
+  border-radius: 20px;
+  width: 550px;
+  height: 750px;
+  padding: 40px;
+}
+
+.login-heading {
+  font-size: 45px;
+}
+
+.username {
+  margin-top: 40px;
+  border: 1px solid rgb(211, 209, 209);
+  border-radius: 5px;
+  width: 350px;
+  height: 40px;
+  display: flex;
+  margin-left: 60px;
+  padding: 5px 0 5px 10px;
+}
+.username i {
+  height: 5px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.username input {
+  font-size: 18px;
+  font-weight: 200;
+  border: none;
+  outline: none;
+  margin-left: 30px;
+}
+.continue {
+  color: #ffff;
+  background-color: #108a00;
+  font-size: 18px;
+  height: 40px;
+
+  width: 350px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.continue a{
+
+  text-decoration: none;
+}
+.linebreak {
+  margin: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.line {
+  border: 0.5px solid rgb(172, 168, 168);
+  width: 150px;
+  height: 1px;
+}
+.google {
+  height: 40px;
+  background-color: #4285f4;
+  width: 350px;
+  margin-left: 54px;
+  padding: 10px 15px 5px 15px;
+  border-radius: 50px;
+}
+.google-btn {
+  background-color: transparent;
+  height: 35px;
+  width: 200px;
+  margin: -5px 0 0 30px;
+  font-size: 18px;
+  color: #ffff;
+  border: none;
+}
+
+.google i {
+  margin-left: -65px;
+}
+
+.apple {
+  height: 40px;
+  border: 1px solid black;
+  width: 350px;
+  margin-left: 54px;
+  margin-top: 25px;
+  padding: 10px 15px 5px 15px;
+  border-radius: 50px;
+}
+.apple-btn {
+  background-color: transparent;
+  height: 35px;
+  width: 200px;
+  margin: -5px 0 0 3px;
+  font-size: 18px;
+  color: black;
+  border: none;
+}
+
+.linebreak2 {
+  margin-top: 150px;
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-evenly;
+}
+span {
+  font-size: 18px;
+}
+.line2 {
+  border: 0.5px solid rgb(172, 168, 168);
+  width: 70px;
+  height: 1px;
+}
+.signup{
+
+    color: #108a00;
+    border: 2px solid #108a00;
+    border-radius: 50px;
+    font-size: 18px;
+    width: 250px;
+    height: 45px;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.signup a{
+
+text-decoration: none;
+color: #108a00;
+
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Form</title>
+
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #fff;
+        background: linear-gradient(135deg, #05073a, #dc0606ca);
+        padding: 10px;
+      }
+      .container {
+        max-width: 700px;
+        width: 100%;
+        padding: 25px 30px;
+        border-radius: 25px;
+        background: linear-gradient(135deg, #dc0606ca, #05073a);
+      }
+      .container .heading {
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 500;
+        padding: 0 0 20px 0;
+      }
+
+      .container .heading::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(135deg, #71b7e6, #9b5b);
+      }
+
+      .container form .card-details {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      form .card-details .card-box {
+        width: calc(100% / 2-20px);
+        margin-bottom: 15px;
+        width: 45%;
+      }
+      .card-details .card-box .details {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+      .card-details .card-box input {
+        height: 45px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding-left: 15px;
+        font-size: 16px;
+        border-bottom-width: 2px;
+        transition: all 0.3s ease;
+      }
+      .card-details .card-box input:focus,
+      .card-details .card-box input:valid {
+        border-color: #9b59b6;
+      }
+      form .circle-form .circle-title {
+        font-size: 20px;
+        font-weight: 500;
+        border-bottom: 2px solid;
+      }
+      form,
+      .circle-form .category {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      form .button {
+        text-align: center;
+      }
+
+      form .button input {
+        padding: 10px 0;
+        margin-top: 10px;
+        height: 100%;
+        width: 60%;
+        outline: none;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        background: linear-gradient(135deg, #05073a, #dc0606ca);
+      }
+      form .button input:hover {
+        background: linear-gradient(-135deg, #05073a, #dc0606ca);
+      }
+
+      @media (max-width: 584px) {
+        .container {
+          max-width: 100%;
+        }
+        form .card-details .card-box {
+          margin-bottom: 15px;
+          width: 100%;
+        }
+
+        .container form .card-details {
+          max-height: 300px;
+          overflow: scroll;
+        }
+
+        .card-details ::-webkit-scrollbar {
+          width: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">Registration</div>
+      <form action="">
+        <div class="card-details">
+          <div class="card-box">
+            <span class="details"> Full Name</span>
+            <input type="text" name="" id="" placeholder="Enter Your Name" />
+          </div>
+          <div class="card-box">
+            <span class="details"> User Name</span>
+            <input type="text" name="" id="" placeholder="Enter User Name" />
+          </div>
+          <div class="card-box">
+            <span class="details"> Email</span>
+            <input type="email" name="" id="" placeholder="Enter Your Email" />
+          </div>
+          <div class="card-box">
+            <span class="details"> Phone Number</span>
+            <input
+              type="number"
+              name=""
+              id=""
+              placeholder="Enter Your Number"
+            />
+          </div>
+          <div class="card-box">
+            <span class="details"> Password</span>
+            <input
+              type="password"
+              name=""
+              id=""
+              placeholder="Enter Your Password"
+            />
+          </div>
+          <div class="card-box">
+            <span class="details"> Confirm Password</span>
+            <input
+              type="password"
+              name=""
+              id=""
+              placeholder="Confirm Your Password"
+            />
+          </div>
+        </div>
+        <div class="circle-form">
+          <span class="circle-title">Gender</span>
+          <div class="category"></div>
+          <input type="radio" name="Gender" id="" /> Male
+          <input type="radio" name="Gender" id="" /> Female
+          <input type="radio" name="Gender" id="" /> Other
+        </div>
+
+        <div class="button">
+          <input type="submit" value="Register" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
